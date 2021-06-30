@@ -7,6 +7,6 @@ for i in range(10):
     input_ni = int(input("すぐに番号1を入力して攻撃します!"))
     if input_ni == 1:
         hp_boss -= 1
-        print("你击中了狂风,ゲイルの残りのHP:",hp_boss)
+        print("あなたは風に当たる,ゲイルの残りのHP:",hp_boss)
         if hp_boss == 0:
             print("リトルモー,おめでとう,風を打ち負かした")
